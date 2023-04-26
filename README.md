@@ -1,7 +1,7 @@
 <img width="1512" alt="pastaIdeas1" src="https://user-images.githubusercontent.com/113631428/234651908-1067427a-fde7-475d-805f-19725cd2fb38.png">
 <div style="display:flex;">
-<img width="502" alt="pastaIdeas3" src="https://user-images.githubusercontent.com/113631428/234651934-9a1cb008-ed9d-40c5-9e4a-5749212104b7.png">
-<img width="502" alt="pastaIdeas4" src="https://user-images.githubusercontent.com/113631428/234651974-a112e9da-4f3c-4d08-8a56-4e3054b32aac.png">
+<img width="505" alt="pastaIdeas3" src="https://user-images.githubusercontent.com/113631428/234651934-9a1cb008-ed9d-40c5-9e4a-5749212104b7.png">
+<img width="505" alt="pastaIdeas4" src="https://user-images.githubusercontent.com/113631428/234651974-a112e9da-4f3c-4d08-8a56-4e3054b32aac.png">
 </div>
 
 
