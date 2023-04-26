@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,600&display=swap');
+
+html{
+  box-sizing:border-box; 
+  font-family: 'Playfair Display', serif;
+  font:400 1em;
+  background: url("/img/table1.jpeg") center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body {
+  margin: 0;
+  display: grid;
+  text-align: center;
+  color: white;
+  max-width: 100%;
+}
+#header{
+  text-align: center;
+}
+.header-content{
+  align-items: flex-end;
+  justify-content: center;
+  display: flex;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+.logo{
+  height:100px;
+}
+#site-name a{
+  font-style: italic;
+  font-weight: 600;
+  text-decoration: none;
+  color:white;
+  margin: 0;
+}
+#site-name h2, #site-name p{
+  margin: 0;
+}
+.page-title{
+  font-style: italic;
+  font-weight: 600;
+}
+h2{
+  color: gold;
+  font-style: italic;
+}
+main{
+  max-width: 100%;
+}
+.card{
+  max-height: 400px;
+}
+
+.box{
+  color: rgb(49, 37, 37);
+  padding: 5em 15em;
+  display: flex;
+  max-width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.box p{
+  margin: 8px 0;
+}
+.recipeBox {
+  padding: 1em 0.5em;
+  margin: 25px;
+  flex:20%;
+  display: inline-block;
+  background-color: white;
+  border: 10px double rgba(255, 217, 0, 0.7);
+  border-bottom-style: solid;
+  box-shadow: 0 0 0 0.7rem white;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+  text-align: center;
+}
+.link {
+  text-decoration: underline overline dotted darkolivegreen;
+  color:darkolivegreen;
+  font-weight: 600;
+  font-size: 1.25em;
+  font-style: italic;
+}
+.link:hover{
+  background-color: gold;
+}
+.dishPic{
+  border: 10px solid white;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+/* .items{
+  display: flex;
+} */
+.pricetag {
+  background-color:rgb(95, 53, 25);
+  text-align: right;
+  color: lightgoldenrodyellow;
+  margin-left:2em;
+  margin-right:2em;
+  font-style: italic;
+}
+.pricetag:hover{
+  background-color:gold;
+  color:rgb(95, 53, 25);
+}
+.recipe{
+  margin: 5em 15em 0 15em;
+  padding: 1em 5em;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.ingredientsBox {
+  text-align: center;
+  padding-bottom: 2em;
+}
+.instrucions {
+  text-align: left;
+}
+.steps p{
+  margin: 0;
+}
+.recipe li{
+  display: inline-block;
+}
+.container{
+  margin-bottom: 5em;
+}
+.Pic{
+  max-height: 400px;
+}
+.back_btn, .back_btn:visited{
+  color: white;
+}
+.back_btn:hover{
+  color: gold;
+}
+
+
+@media screen and (max-width:768px) {
+  
+  .recipe{
+    margin: 5em 5em;
+    padding: 1em 2em;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .box{
+    padding: 5em 5em;
+  }
+  
+}

@@ -1,0 +1,22 @@
+block variables 
+doctype html 
+html 
+  head
+    meta(charset="utf-8")
+    meta(content='width=device-width' initial-scale='1' shrink-to-fit='no' name='viewport')
+    title #{title} | Pasta Ideas
+    block scripts 
+      link(rel="stylesheet", type="text/css", href="/styles.css")
+  body
+    header#header 
+      .header-content   
+        img.logo(src="/img/wheat-left.png" alt="The wheat logo")
+        div#site-name 
+          h2
+            a(href="/") Pasta Ideas
+          p Since 13th century
+        img.logo(src="/img/wheat-right.png" alt="The wheat logo")
+    main#main 
+      block main-content 
+    footer#footer 
+      p &copy; Copyright Vita Cheung, 2023.

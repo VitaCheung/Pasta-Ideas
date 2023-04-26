@@ -1,0 +1,42 @@
+extends layout 
+
+block main-content 
+
+    h1.page-title Recipe 
+    div.container
+        div.recipeCard 
+            img.dishPic(src=`${info.image}` alt=`Photo of ${info.title}`)
+            h2 #{info.title}
+            p Servings: #{info.servings}
+            p Ready In Minutes: #{info.readyInMinutes}          
+            
+
+        //- img.card(src=`${card.url}`)
+        div.recipe
+            h2 Ingredients
+            ul.ingredientsBox  
+                each food in ingredients.ingredients 
+                    li
+                    div.items #{food.name} #{food.amount.metric.value} #{food.amount.metric.unit} 
+                        - url3 = `/price?ingredient=${food.name}`;
+                        a(href=url3).pricetag Price
+
+            h2 Instructions 
+            ul.instrucions  
+                each i in instructions[0].steps
+                    li 
+                    div.steps
+                        p #{i.number}. #{i.step}
+
+        h2 
+            a(href="/").back_btn Back to home
+
+            
+
+    
+                
+
+
+   
+                
+                

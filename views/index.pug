@@ -1,0 +1,32 @@
+extends layout 
+
+block main-content 
+  
+  h1.page-title Bon Appétit! 
+
+  p Here are some pasta recipes:
+  ul.box 
+    each r in recipe.results
+      li.recipeBox 
+        div 
+          img.Pic(src=`https://spoonacular.com/recipeImages/${r.id}-312x231.jpg` alt=`Photo of ${r.title}`)
+          p #{r.title} 
+          p Ready In Minutes: #{r.readyInMinutes}
+          p Servings: #{r.servings}
+          
+          - url2 = `/recipes?id=${r.id}`;
+          a(href=url2).link Recipe
+
+
+          
+          
+        
+
+
+
+
+
+
+
+  
+  

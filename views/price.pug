@@ -1,0 +1,14 @@
+extends layout 
+
+block main-content 
+
+    h1.page-title Ingredient Price
+    div.container
+      img.Pic(src=`${price.search_results[0].product.main_image}` alt=`Photo of ${price.search_results[0].product.title}`)
+      p #{price.search_results[0].product.title}
+      p $#{price.search_results[0].offers.primary.price}
+      a(href=`${price.search_results[0].product.link}`).pricetag BUY NOW
+
+    h2 
+            a(href="/").back_btn Back to home
+            
