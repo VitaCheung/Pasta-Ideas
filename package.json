@@ -1,13 +1,13 @@
 {
-  "name": "testapp-trakt",
+  "name": "pasta-ideas",
   "version": "1.0.0",
-  "description": "Test application using Express and Node to test the Trakt REST API",
+  "description": "Test application using Express and Node",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon ./index.js",
     "ui": "browser-sync start --config bs-config.js"
   },
-  "author": "Joanna Kommala",
+  "author": "Vita Cheung",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
