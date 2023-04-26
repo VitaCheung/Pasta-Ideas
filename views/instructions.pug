@@ -21,12 +21,16 @@ block main-content
                         - url3 = `/price?ingredient=${food.name}`;
                         a(href=url3).pricetag Price
 
-            h2 Instructions 
-            ul.instrucions  
-                each i in instructions[0].steps
-                    li 
-                    div.steps
-                        p #{i.number}. #{i.step}
+            h2 Instructions
+            - if (instructions.length){
+                ul.instrucions  
+                    each i in instructions[0].steps
+                        li 
+                        div.steps
+                            p #{i.number}. #{i.step}
+            - } else { 
+                p Sorry. This recipe is not ready!
+            - }
 
         h2 
             a(href="/").back_btn Back to home
