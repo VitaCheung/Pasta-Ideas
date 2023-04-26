@@ -1,3 +1,8 @@
+<img width="1512" alt="pastaIdeas1" src="https://user-images.githubusercontent.com/113631428/234651908-1067427a-fde7-475d-805f-19725cd2fb38.png">
+<img width="1512" alt="pastaIdeas3" src="https://user-images.githubusercontent.com/113631428/234651934-9a1cb008-ed9d-40c5-9e4a-5749212104b7.png">
+<img width="1512" alt="pastaIdeas4" src="https://user-images.githubusercontent.com/113631428/234651974-a112e9da-4f3c-4d08-8a56-4e3054b32aac.png">
+
+
 # Pasta Ideas 
 This webpage gives you many pasta recipes and the real-time prices of the food ingredients. Links to purchase the items are also provided. The data is from two APIs, spoonacular API and BlueCart API. Please note that there are number limits for the API call requests. 
 
